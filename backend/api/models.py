@@ -12,7 +12,7 @@ class MeasurementUnit(models.Model):
 class ReviewImage(models.Model):
 	ImageID = models.AutoField(primary_key=True)
 	URL = models.CharField()
-	Review = models.ForeignKey('Review', on_delete=CASCADE)
+	Review = models.
 
 class User(models.Model):
 	UserID = models.AutoField(primary_key=True)
